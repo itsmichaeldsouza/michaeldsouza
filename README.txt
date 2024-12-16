@@ -1,4 +1,13 @@
-<--
+# 👋 Hi, I’m Michael Dsouza
+
+- 👀 I’m interested in **IT Infrastructure Management, web development, data science, AI, and software engineering**.
+- 🌱 I’m currently learning **React, machine learning, and cloud computing**.
+- 💞️ I’m looking to collaborate on **open-source projects, AI research, and web development**.
+- 📫 How to reach me: **https://itsmichaeldsouza.github.io/michaeldsouza/*
+- 😄 Pronouns: **He/Him**
+- ⚡ Fun fact: I love exploring new technologies and building projects that can solve real-world problems!
+
+<!--
     Portfolio by Michael Dsouza
     github.com/itsmichaeldsouza | @itsmichaeldsouza
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
