@@ -1,13 +1,25 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML> 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=no" />
     <title>Michael Dsouza - IT Admin & Digital Creator</title>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-      <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
+    <meta name="description" content="Portfolio of Michael Dsouza, IT Admin and Digital Creator specializing in IT infrastructure, cybersecurity, and web design." />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Michael Dsouza",
+      "jobTitle": "IT Administrator & Digital Creator",
+      "url": "https://itsmichaeldsouza.github.io/",
+      "sameAs": [
+        "https://www.linkedin.com/in/itsmichaeldsouza",
+        "https://twitter.com/itsmichaeldsouz"
+      ]
+    }
+    </script>
   </head>
 
   <body class="landing is-preload">
@@ -24,7 +36,7 @@
               <a href="#menu" class="menuToggle"><span>Menu</span></a>
               <div id="menu">
                 <ul>
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#banner">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#services">Services</a></li>
                   <li><a href="#portfolio">Portfolio</a></li>
@@ -47,6 +59,7 @@
             <li><a href="#services" class="button primary">Learn More</a></li>
           </ul>
         </div>
+        <a href="#about" class="more scrolly">Learn More</a>
       </section>
 
       <!-- About Section -->
@@ -73,7 +86,7 @@
 
           <!-- Service 1 -->
           <section class="spotlight">
-            <div class="image"><img src="images/it_infrastructure.jpg" alt="IT Infrastructure" /></div>
+            <div class="image"><img src="images/pic01.jpg" alt="IT Infrastructure" loading="lazy" /></div>
             <div class="content">
               <h3>IT Infrastructure Management</h3>
               <p>
@@ -84,7 +97,7 @@
 
           <!-- Service 2 -->
           <section class="spotlight">
-            <div class="image"><img src="images/cybersecurity.jpg" alt="Cybersecurity" /></div>
+            <div class="image"><img src="images/pic02.jpg" alt="Cybersecurity" loading="lazy" /></div>
             <div class="content">
               <h3>Cybersecurity Solutions</h3>
               <p>
@@ -95,7 +108,7 @@
 
           <!-- Service 3 -->
           <section class="spotlight">
-            <div class="image"><img src="images/web_design.jpg" alt="Web Design" /></div>
+            <div class="image"><img src="images/pic03.jpg" alt="Web Design" loading="lazy" /></div>
             <div class="content">
               <h3>Website Design & Development</h3>
               <p>
@@ -116,38 +129,40 @@
             </p>
           </header>
 
-          <!-- Project 1 -->
-          <section class="feature">
-            <div class="image"><img src="images/project1.jpg" alt="Project 1" /></div>
-            <div class="content">
-              <h3>Custom Website Development</h3>
-              <p>
-                A fully custom-built website for a local business, featuring an e-commerce platform, responsive design, and SEO optimization.
-              </p>
+          <div class="features">
+            <!-- Project 1 -->
+            <div class="feature portfolio-item">
+              <div class="image"><img src="images/pic04.jpg" alt="Custom Website Development" loading="lazy" /></div>
+              <div class="content">
+                <h3>Custom Website Development</h3>
+                <p>
+                  Developed a responsive e-commerce platform for a local business, featuring intuitive UI, SEO optimization, and payment integration.
+                </p>
+              </div>
             </div>
-          </section>
 
-          <!-- Project 2 -->
-          <section class="feature">
-            <div class="image"><img src="images/project2.jpg" alt="Project 2" /></div>
-            <div class="content">
-              <h3>Wi-Fi Management for Corporates</h3>
-              <p>
-                Managed and optimized Wi-Fi networks for a corporate office, ensuring high performance and security.
-              </p>
+            <!-- Project 2 -->
+            <div class="feature portfolio-item">
+              <div class="image"><img src="images/pic05.jpg" alt="Wi-Fi Network Optimization" loading="lazy" /></div>
+              <div class="content">
+                <h3>Wi-Fi Network Optimization</h3>
+                <p>
+                  Designed and implemented a robust Wi-Fi network for a corporate office, improving speed and connectivity by 40%.
+                </p>
+              </div>
             </div>
-          </section>
 
-          <!-- Project 3 -->
-          <section class="feature">
-            <div class="image"><img src="images/project3.jpg" alt="Project 3" /></div>
-            <div class="content">
-              <h3>Cybersecurity Infrastructure</h3>
-              <p>
-                Implemented a robust cybersecurity solution for a financial institution, safeguarding sensitive data from cyber threats.
-              </p>
+            <!-- Project 3 -->
+            <div class="feature portfolio-item">
+              <div class="image"><img src="images/pic06.jpg" alt="Cybersecurity Infrastructure" loading="lazy" /></div>
+              <div class="content">
+                <h3>Cybersecurity Infrastructure</h3>
+                <p>
+                  Implemented an advanced cybersecurity system for a financial institution, reducing risks of cyber attacks by 60%.
+                </p>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
       </section>
 
@@ -167,22 +182,22 @@
       </section>
 
       <!-- Footer -->
-<footer id="footer">
-    <ul class="icons">  
-          <li><a href="https://x.com/itsmichaeldsouz" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>      
-          <li><a href="https://www.facebook.com/itsmichaeldsouza" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>  
-          <li><a href="https://www.instagram.com/itsmichaeldsouza" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>  
-          <li><a href="https://wa.me/9480674785" class="icon brands fa-whatsapp" target="_blank"><span class="label">WhatsApp</span></a></li>  
-          <li><a href="mailto:itsmichaeldsouza@yahoo.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>  
-          <li><a href="#" class="icon brands fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>  
-          <li><a href="#" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>  
-          <li><a href="https://www.linkedin.com/in/itsmichaeldsouza" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>  
-          <li><a href="https://pin.it/7BMn09MIf" class="icon brands fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>  
-      </ul>
-    <ul class="copyright">
-      <li>&copy; 2024 Michael Dsouza</li>
-    </ul>
-  </footer>  
+      <footer id="footer">
+        <ul class="icons">
+          <li><a href="https://twitter.com/itsmichaeldsouz" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+          <li><a href="https://www.facebook.com/itsmichaeldsouza" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+          <li><a href="https://www.instagram.com/itsmichaeldsouza" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+          <li><a href="https://wa.me/9480674785" class="icon brands fa-whatsapp" target="_blank"><span class="label">WhatsApp</span></a></li>
+          <li><a href="mailto:itsmichaeldsouza@yahoo.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+          <li><a href="#" class="icon brands fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
+          <li><a href="#" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+          <li><a href="https://www.linkedin.com/in/itsmichaeldsouza" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+          <li><a href="https://pin.it/7BMn09MIf" class="icon brands fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; 2024 Michael Dsouza</li>
+        </ul>
+      </footer>
 
     </div>
 
