@@ -1,6 +1,6 @@
 <--
     Portfolio by Michael Dsouza
-    itsmichaeldsouza.github.io | @itsmichaeldsouza
+    github.com/itsmichaeldsouza | @itsmichaeldsouza
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
     A modern, blocky portfolio website with a mobile-style menu, fully responsive styling,
