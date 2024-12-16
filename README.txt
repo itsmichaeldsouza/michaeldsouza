@@ -1,45 +1,38 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<--
+    Portfolio by Michael Dsouza
+    itsmichaeldsouza.github.io | @itsmichaeldsouza
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
+    A modern, blocky portfolio website with a mobile-style menu, fully responsive styling,
+    and an assortment of pre-styled elements, designed for showcasing IT admin and digital creator services.
+    Here's how it's built:
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+    - Built using components from HTML5 UP's Spectral theme.
+    - It uses flexbox to create a responsive layout without clunky CSS grid systems.
+    - It leverages Sass for more efficient styling, incorporating several mixins and functions.
+    - The site integrates jQuery for smooth scrolling and interactivity.
 
-- It's built with components from my Responsive Tools project.
+    In short, this portfolio is the culmination of several web technologies that allow me to showcase my IT and digital solutions in a user-friendly format.
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+    Demo images* courtesy of Unsplash, a collection of CC0 (public domain) images you can use for pretty much whatever.
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
+    (* = not included)
 
-  (* = still entirely optional if you prefer vanilla CSS :)
+    Special Thanks to:
 
-- A ton of other stuff.
+    AJ
+    aj@lkn.io | @ajlkn
 
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
+    Credits:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+    Demo Images:
+        Unsplash (unsplash.com)
 
-(* = not included)
+    Icons:
+        Font Awesome (fontawesome.io)
 
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+    Other:
+        jQuery (jquery.com)
+        Scrollex (github.com/ajlkn/jquery.scrollex)
+        Spectral Theme by HTML5 UP (html5up.net)
+-->
